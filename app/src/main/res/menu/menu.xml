@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/den">
+    <item
+        android:id="@+id/menuSua"
+        android:actionLayout="@layout/support_simple_spinner_dropdown_item"
+        android:title="@string/menuSua"></item>
+    <item
+        android:id="@+id/menuXoa"
+        android:actionLayout="@layout/support_simple_spinner_dropdown_item"
+        android:title="@string/menuXoa"></item>
+</menu>

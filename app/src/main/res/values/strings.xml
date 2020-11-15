@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ThuChi</string>
+    <string name="menuSua">Sửa</string>
+    <string name="menuXoa">Xóa</string>
+</resources>

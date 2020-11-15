@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle" xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Set màu n?n -->
+    <solid android:color="#2efae2">
+    </solid>
+    <!-- d?t thu?c tính màu và d? r?ng c?a du?ng vi?n -->
+    <stroke android:color="#12f4e1" android:width="3dp">
+    </stroke>
+    <!-- các thu?c tính can ch?nh -->
+    <padding android:bottom="10dp" android:left="10dp" android:right="10dp" android:top="10dp">
+    </padding>
+    <!-- và dây là bán kính du?ng tròn ? 4 góc -->
+    <corners android:radius="400dp">
+    </corners>
+</shape>

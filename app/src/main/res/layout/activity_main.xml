@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.ariesleo.thuchi.Main.Main_KhoanThu">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme">
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/coordinatorLayout">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            app:srcCompat="@android:drawable/ic_menu_edit" />
+
+        <ListView
+            android:id="@+id/lvkhoanThu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.86" />
+
+    </android.support.design.widget.CoordinatorLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/coordinatorLayout">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="6dp"
+            android:layout_marginEnd="6dp"
+            android:text="Khoản chi"
+            android:id="@+id/btnKhoanChi"
+            android:textColor="@color/den"
+            android:background="@drawable/button1"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:id="@+id/btnNam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="7dp"
+            android:text="Năm"
+            android:background="@drawable/button"
+            android:layout_marginRight="7dp"
+            android:layout_alignBaseline="@+id/btnKhoanChi"
+            android:layout_alignBottom="@+id/btnKhoanChi"
+            android:layout_toLeftOf="@+id/btnKhoanChi"
+            android:layout_toStartOf="@+id/btnKhoanChi" />
+
+        <Button
+            android:id="@+id/btnThang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tháng"
+            android:background="@drawable/button"
+            android:layout_alignBaseline="@+id/btnNam"
+            android:layout_alignBottom="@+id/btnNam"
+            android:layout_toLeftOf="@+id/btnNam"
+            android:layout_toStartOf="@+id/btnNam"
+            android:layout_marginRight="8dp"
+            android:layout_marginEnd="8dp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

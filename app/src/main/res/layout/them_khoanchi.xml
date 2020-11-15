@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/thiennhien">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tên :"
+                android:textColor="@color/den"
+                android:ems="4"/>
+
+            <EditText
+                android:id="@+id/editTen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="13"
+                android:inputType="textPersonName"
+                android:hint="tên khoản thu" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:textColor="@color/den"
+                android:layout_height="wrap_content"
+                android:text="Số tiền:"
+                android:ems="4"/>
+
+            <EditText
+                android:id="@+id/editSotien"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="0"
+                android:inputType="number" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Loại :"
+                android:textColor="@color/den"
+                android:ems="4"/>
+
+            <EditText
+                android:id="@+id/editLoai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="13"
+                android:hint="Loại"
+                android:inputType="textPersonName" />
+
+        </TableRow>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ngày:"
+                android:textColor="@color/den"
+                android:ems="4"/>
+
+            <TextView
+                android:id="@+id/txtNgay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.39"
+                android:ems="8"
+                android:layout_marginTop="5dp"
+                android:hint=""
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/btNgay"
+                android:textColor="@color/den"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button1"
+                android:text="Chọn" />
+
+        </LinearLayout>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ghi chú"
+                android:textColor="@color/den"/>
+
+            <EditText
+                android:id="@+id/editGC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="13"
+                android:inputType="textPersonName"
+                android:hint="ghi chú" />
+
+        </TableRow>
+    </TableLayout>
+    \<TextView
+    android:layout_width="match_parent"
+    android:layout_height="50dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/btnLuu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/button"
+            android:text="Lưu"
+            android:textColor="@color/den" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bntHuy"
+            android:textColor="@color/den"
+            android:background="@drawable/button"
+            android:layout_margin="5dp"
+            android:text="Hủy"/>
+    </LinearLayout>
+
+</LinearLayout>
