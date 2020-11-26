@@ -32,7 +32,7 @@ import java.util.ArrayList;
  */
 
 public class Sua_KhoanChi extends AppCompatActivity {
-    final String DATA_NAME = "QuanLy.sqlite";
+    final String DATA_NAME = "KhoanChi.sqlite";
     SQLiteDatabase database;
     ArrayList<KhoanChi> arKhoanThu = new ArrayList<>();
     ArrayList<KhoanChi> arKhoanThu1 = new ArrayList<>();

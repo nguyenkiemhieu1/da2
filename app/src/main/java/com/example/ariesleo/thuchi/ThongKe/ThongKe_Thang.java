@@ -26,7 +26,7 @@ public class ThongKe_Thang extends AppCompatActivity {
     ImageButton img1, img2;
     TextView tvhienthi, tvtienchi, tvtienthu, tvhieu;
     Integer month, year;
-    final String DATABASE_NAME = "QuanLy.sqlite";
+    final String DATABASE_NAME = "KhoanChi.sqlite";
     SQLiteDatabase db;
     Integer tienchi = 0;
     Integer tienthu = 0;

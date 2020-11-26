@@ -40,7 +40,7 @@ import java.util.ArrayList;
 
 public class Main_KhoanThu extends AppCompatActivity {
 
-    final String DATA_NAME = "KhoanThu.sqlite";
+    final String DATA_NAME = "KhoanChi.sqlite";
     SQLiteDatabase database;
     ArrayList<KhoanThu> arKhoanThu = new ArrayList<>();
     ArrayList<KhoanThu> khoanThu = new ArrayList<>();

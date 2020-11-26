@@ -28,7 +28,7 @@ import java.util.Calendar;
 
 
 public class Them_KhoanThu extends AppCompatActivity {
-    final String DATA_NAME = "QuanLy.sqlite";
+    final String DATA_NAME = "KhoanChi.sqlite";
     SQLiteDatabase database;
     ArrayList<KhoanThu> arKhoanThu = new ArrayList<>();
     Button btnHuy, btnLuu;
